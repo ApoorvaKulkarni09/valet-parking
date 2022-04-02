@@ -75,7 +75,7 @@ function up()
 
 function down()
 {
-	if( carY <= 700){
+	if( carY <= 325){
 		carY = carY+10;
 		console.log("x = " + carX +" y = "+ carY );
 		uploadBackground();
@@ -92,7 +92,7 @@ function left()
 }
 
 function right()
-{ if( carX <= 325){
+{ if( carX <= 900){
 	carX = carX+10;
 	console.log("x = " + carX +" y = "+ carY );
 	uploadBackground();
