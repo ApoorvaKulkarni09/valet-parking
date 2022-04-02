@@ -5,7 +5,7 @@ car_width = 75;
 car_height = 100;
 
 background_image = "parkingLot.jpg";
-greencar_image = "car2.jpg";
+greencar_image = "car2.png";
 
 carY=225;
 carX=5;
@@ -15,9 +15,9 @@ function add() {
 	background_imageTag.onload = uploadBackground;
 	background_imageTag.src = background_image;
 	
-} greencar_imageTag = new Image();
+ greencar_imageTag = new Image();
   greencar_imageTag.onload = uploadgreencar;
-  greencar_imageTag.src = greencar_image;
+  greencar_imageTag.src = greencar_image;}
 
 function uploadBackground() {
 	ctx.drawImage(background_imageTag , 0 , 0 , canvas.width , canvas.height );
